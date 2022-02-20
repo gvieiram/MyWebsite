@@ -21,7 +21,8 @@
         "react",
         "@typescript-eslint",
         "react-hooks",
-        "prettier"
+        "prettier",
+        "import-helpers"
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
@@ -48,7 +49,20 @@
       ],
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error",
-      "react/no-unescaped-entities": "off"
+      "react/no-unescaped-entities": "off",
+      "import-helpers/order-imports": [   // Organizando os Imports
+        "warn",
+        {
+          "newlinesBetween": "always",
+          "groups": [
+              "/^react/",
+              "module",
+              ["/^@src/", "/^@components/", "/^@screens/", "/^@assets/", "/^@hooks/"],
+              ["parent", "sibling", "index"]
+          ],
+          "alphabetize": { "order": "asc", "ignoreCase": true }
+        }
+      ]
     },
     "settings": {
       "import/resolver": {
