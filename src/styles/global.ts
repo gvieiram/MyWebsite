@@ -27,6 +27,7 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
@@ -34,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
   }
 
-  button {
+  button, a {
     cursor: pointer;
   }
 
