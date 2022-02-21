@@ -1,13 +1,18 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
 
-function App() {
+import { ThemeProvider } from 'styled-components';
+
+import { Header } from './components/Header';
+import { GlobalStyle } from './styles/global';
+import light from './styles/themes/light';
+
+export function App() {
   return (
-    <div className="App">
-      <h2>Gustavo's Web Application</h2>
-      <p>Initiating the application</p>
-    </div>
+    <ThemeProvider theme={light}>
+      <div className="App">
+        <GlobalStyle />
+        <Header />
+      </div>
+    </ThemeProvider>
   );
 }
-
-export default App;

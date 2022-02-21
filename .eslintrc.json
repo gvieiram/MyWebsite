@@ -50,7 +50,8 @@
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error",
       "react/no-unescaped-entities": "off",
-      "import-helpers/order-imports": [   // Organizando os Imports
+      "import/prefer-default-export": "off",
+      "import-helpers/order-imports": [
         "warn",
         {
           "newlinesBetween": "always",

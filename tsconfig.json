@@ -19,8 +19,20 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@src/*": ["./src/*"],
+    //   "@pages/*": ["./src/pages/*"],
+    //   "@assets/*": ["./src/assets/*"],
+    //   "@hooks/*": ["./src/hooks/*"],
+    //   "@routes/*": ["./src/routes/*"],
+    //   "@utils/*": ["./src/utils/*"],
+    // }
   },
   "include": [
     "src"
+  ],
+  "files": [
+    "src/styles/styled.d.ts"
   ]
 }
