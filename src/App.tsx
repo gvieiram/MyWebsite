@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
+import NotFound from './pages/NotFound';
 import { Portfolio } from './pages/Portfolio';
 import { GlobalStyle } from './styles/global';
 import light from './styles/themes/light';
@@ -16,6 +17,8 @@ export function App() {
         <GlobalStyle />
         <Navbar />
         <Routes>
+          <Route path="*" element={<NotFound />} />
+
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
