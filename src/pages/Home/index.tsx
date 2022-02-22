@@ -1,6 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 
+import { Skills } from '../../components/Skills';
 import {
   Header,
   HeaderSubtitle,
@@ -37,6 +38,18 @@ export function Home() {
             JS, NodeJS, Express JS, Cypress and Jest.{'\n'}Also a functional
             programming enthusiast and a dog father.
           </Text>
+
+          <Title>Skills</Title>
+          <Skills
+            skills={[
+              { name: 'JavaScript', done: '80' },
+              { name: 'ReactJS', done: '70' },
+              { name: 'React Native', done: '75' },
+              { name: 'Typescript', done: '55' },
+              { name: 'Angular', done: '20' },
+              { name: 'Automation Tests', done: '90' },
+            ]}
+          />
         </Card>
       </Container>
     </>

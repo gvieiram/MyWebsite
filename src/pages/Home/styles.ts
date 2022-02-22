@@ -99,7 +99,7 @@ export const Image = styled.img`
     width: 220px;
     height: 220px;
     border-radius: 110px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   @media (max-width: 339px) {
