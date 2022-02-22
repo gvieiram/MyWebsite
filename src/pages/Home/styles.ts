@@ -118,4 +118,5 @@ export const Title = styled.h2`
 export const Text = styled.p`
   text-align: justify;
   white-space: pre-line;
+  font-size: 1.15rem;
 `;
