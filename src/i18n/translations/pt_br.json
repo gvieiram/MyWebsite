@@ -1,0 +1,43 @@
+{
+    "navBar": {
+      "home": "Home",
+      "portfolio": "Portfólio"
+    },
+    "home": {
+      "header": {
+        "profession": "Desenvolvedor Front-End"
+      },
+      "titles": {
+        "about": "Sobre Mim",
+        "skills": "Habilidades",
+        "experience": "Experiência"
+      },
+      "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como desenvolvedor de software e trabalho principalmente com React JS, NodeJS, Express JS, Cypress e Jest.\nTambém um entusiasta de programação funcional e um pai de cachorro.",
+      "skills": {
+          "js": {
+            "name": "JavaScript",
+            "done": "80"
+          },
+          "react": {
+            "name": "ReactJS",
+            "done": "70"
+          },
+          "react-native": {
+            "name": "React Native",
+            "done": "75"
+          },
+          "ts": {
+            "name": "Typescript",
+            "done": "55"
+          },
+          "angular": {
+            "name": "Angular",
+            "done": "20"
+          },
+          "qa": {
+            "name": "Automação de Testes",
+            "done": "90"
+          }
+      }
+    }
+}

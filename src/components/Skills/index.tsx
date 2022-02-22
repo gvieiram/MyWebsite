@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Container, SkillBar, Progress, Skill } from './styles';
 
@@ -26,7 +26,7 @@ export function Skills({ skills }: SkillsProps) {
   return (
     <>
       {skills.map(skill => (
-        <Container>
+        <Container key={skill.name}>
           <Skill>{skill.name}</Skill>
 
           <SkillBar>

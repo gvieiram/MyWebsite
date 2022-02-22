@@ -51,6 +51,7 @@
       "prettier/prettier": "error",
       "react/no-unescaped-entities": "off",
       "import/prefer-default-export": "off",
+      "camelcase": "off",
       "import-helpers/order-imports": [
         "warn",
         {

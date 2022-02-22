@@ -1,5 +1,5 @@
-/* eslint-disable import/no-unresolved */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { Skills } from '../../components/Skills';
 import {
@@ -15,12 +15,14 @@ import {
 } from './styles';
 
 export function Home() {
+  const { t } = useTranslation('home', { useSuspense: false });
+
   return (
     <>
       <Header>
         <Content>
           <HeaderTitle>Gustavo Vieira Martins</HeaderTitle>
-          <HeaderSubtitle>Front-End Developer</HeaderSubtitle>
+          <HeaderSubtitle>{t('header.profession')}</HeaderSubtitle>
         </Content>
       </Header>
 
@@ -28,26 +30,26 @@ export function Home() {
         <Card>
           <Image src="https://github.com/gvieiram.png" />
 
-          <Title>About</Title>
-          <Text>
-            I'm a Developer passionate about solve problems using code!{'\n'}I
-            started 3 years ago studying frontend by myself.{'\n'}Recently I
-            discovered that I love to manage teams and come up with ideas and
-            solutions to improve our day-to-day work and deliveries.{'\n'}I
-            currently work as a software developer and mainly work with React
-            JS, NodeJS, Express JS, Cypress and Jest.{'\n'}Also a functional
-            programming enthusiast and a dog father.
-          </Text>
+          {/* About */}
+          <Title>{t('titles.about')}</Title>
+          <Text>{t('about')}</Text>
 
-          <Title>Skills</Title>
+          {/* Skills */}
+          <Title>{t('titles.skills')}</Title>
           <Skills
             skills={[
-              { name: 'JavaScript', done: '80' },
-              { name: 'ReactJS', done: '70' },
-              { name: 'React Native', done: '75' },
-              { name: 'Typescript', done: '55' },
-              { name: 'Angular', done: '20' },
-              { name: 'Automation Tests', done: '90' },
+              { name: t('skills.js.name'), done: t('skills.js.done') },
+              { name: t('skills.react.name'), done: t('skills.react.done') },
+              {
+                name: t('skills.react-native.name'),
+                done: t('skills.react-native.done'),
+              },
+              { name: t('skills.ts.name'), done: t('skills.ts.done') },
+              {
+                name: t('skills.angular.name'),
+                done: t('skills.angular.done'),
+              },
+              { name: t('skills.qa.name'), done: t('skills.qa.done') },
             ]}
           />
         </Card>
