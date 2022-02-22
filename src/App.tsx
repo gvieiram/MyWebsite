@@ -17,10 +17,10 @@ export function App() {
         <GlobalStyle />
         <Navbar />
         <Routes>
-          <Route path="*" element={<NotFound />} />
-
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
