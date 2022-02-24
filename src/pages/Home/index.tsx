@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { Skills } from '../../components/Skills';
+import { TimeLine } from '../../components/TimeLine';
 import {
   Header,
   HeaderSubtitle,
@@ -52,6 +53,9 @@ export function Home() {
               { name: t('skills.qa.name'), done: t('skills.qa.done') },
             ]}
           />
+
+          <Title>{t('titles.experience')}</Title>
+          <TimeLine />
         </Card>
       </Container>
     </>

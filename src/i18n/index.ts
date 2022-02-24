@@ -15,13 +15,16 @@ const resources = {
 
 export const availableLanguages = Object.keys(resources);
 
+const lngFallback = navigator.language === 'pt-BR' ? 'pt_br' : 'en';
+
 i18n
   .use(initReactI18next)
   .use(LanguageDetector)
   .init({
     resources,
-    fallbackLng: 'en',
+    fallbackLng: lngFallback,
     interpolation: {
       escapeValue: false,
     },
+    returnObjects: true,
   });

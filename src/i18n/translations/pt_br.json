@@ -38,6 +38,40 @@
             "name": "Automação de Testes",
             "done": "90"
           }
-      }
+      },
+      "experience": [
+        {
+          "id": 1,
+          "title": "Front-End Developer",
+          "location": "Florianópolis, SC",
+          "description": "Trabalho muito satisfatório",
+          "date": "17/05/2015",
+          "icon": "work"
+        },
+        {
+          "id": 2,
+          "title": "QA",
+          "location": "Florianópolis, SC",
+          "description": "Trabalho muito insatisfatório",
+          "date": "17/05/2015",
+          "icon": "work"
+        },
+        {
+          "id": 3,
+          "title": "Analise e Desenvolvimento de Sistemas - SENAC",
+          "location": "Florianópolis, SC",
+          "description": "Faculdade",
+          "date": "2018 - 2021",
+          "icon": "school"
+        },
+        {
+          "id": 4,
+          "title": "Ignite Rocketseat",
+          "location": "Florianópolis, SC",
+          "description": "Curso",
+          "date": "Março 2021",
+          "icon": "school"
+        }
+      ]
     }
 }
