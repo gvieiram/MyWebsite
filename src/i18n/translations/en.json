@@ -1,7 +1,24 @@
 {
   "navBar": {
     "home": "Home",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "languages": [
+      {
+        "id": 1,
+        "name": "Portuguese 🇧🇷",
+        "value": "pt_br"
+      },
+      {
+        "id": 2,
+        "name": "English 🇺🇸",
+        "value": "en"
+      },
+      {
+        "id": 3,
+        "name": "German 🇩🇪",
+        "value": "de"
+      }
+    ]
   },
   "home": {
     "header": {
