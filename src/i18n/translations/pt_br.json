@@ -13,32 +13,38 @@
         "experience": "Experiência"
       },
       "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como desenvolvedor de software e trabalho principalmente com React JS, NodeJS, Express JS, Cypress e Jest.\nTambém um entusiasta de programação funcional e um pai de cachorro.",
-      "skills": {
-          "js": {
-            "name": "JavaScript",
-            "done": "80"
-          },
-          "react": {
-            "name": "ReactJS",
-            "done": "70"
-          },
-          "react-native": {
-            "name": "React Native",
-            "done": "75"
-          },
-          "ts": {
-            "name": "Typescript",
-            "done": "55"
-          },
-          "angular": {
-            "name": "Angular",
-            "done": "20"
-          },
-          "qa": {
-            "name": "Automação de Testes",
-            "done": "90"
-          }
-      },
+      "skills": [
+        {
+          "id": 1,
+          "name": "JavaScript",
+          "value": "80"
+        },
+        {
+          "id": 2,
+          "name": "ReactJS",
+          "value": "70"
+        },
+        {
+          "id": 3,
+          "name": "React Native",
+          "value": "75"
+        },
+        {
+          "id": 4,
+          "name": "Typescript",
+          "value": "55"
+        },
+        {
+          "id": 5,
+          "name": "Angular",
+          "value": "20"
+        },
+        {
+          "id": 6,
+          "name": "Automação de Testes",
+          "value": "90"
+        }
+      ],
       "experience": [
         {
           "id": 1,

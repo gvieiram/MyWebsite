@@ -34,7 +34,13 @@ export function Navbar() {
         onChange={e => i18n.changeLanguage(e.target.value)}
       >
         {availableLanguages.map(language => (
-          <option key={language}>{language}</option>
+          <option key={language} value={language}>
+            {language === 'pt_br'
+              ? 'Portuguese 🇧🇷'
+              : language === 'de'
+              ? 'German 🇩🇪'
+              : 'English 🇺🇸'}
+          </option>
         ))}
       </select>
     </Nav>

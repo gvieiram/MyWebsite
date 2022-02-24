@@ -1,22 +1,18 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { Container, SkillBar, Progress, Skill } from './styles';
 
-interface SkillsProps {
-  skills: {
-    done: string;
-    name: string;
-  }[];
-}
-
-export function Skills({ skills }: SkillsProps) {
+export function Skills() {
+  const { t } = useTranslation('home', { useSuspense: false });
+  const skillsElements = t('skills');
   // const [style, setStyle] = useState({});
 
   // skills.map(skill => {
   //   setTimeout(() => {
   //     const newStyle = {
   //       opacity: 1,
-  //       width: `${skill.done}%`,
+  //       width: `${skill.value}%`,
   //     };
 
   //     setStyle(newStyle);
@@ -25,13 +21,13 @@ export function Skills({ skills }: SkillsProps) {
 
   return (
     <>
-      {skills.map(skill => (
+      {skillsElements.map(skill => (
         <Container key={skill.name}>
           <Skill>{skill.name}</Skill>
 
           <SkillBar>
-            <Progress style={{ width: `${skill.done}%`, opacity: 1 }}>
-              {skill.done}%
+            <Progress style={{ width: `${skill.value}%`, opacity: 1 }}>
+              {skill.value}%
             </Progress>
           </SkillBar>
         </Container>
