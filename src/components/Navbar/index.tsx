@@ -8,10 +8,16 @@ export function Navbar() {
   const { t, i18n } = useTranslation('navBar', { useSuspense: false });
 
   function defaultLanguage() {
-    if (i18n.language.toLowerCase() === 'pt-br') {
-      return 'pt-br';
+    if (
+      i18n.language.toLowerCase() === 'pt_br' ||
+      i18n.language.toLowerCase() === 'pt-br'
+    ) {
+      return 'pt_br';
     }
-    if (i18n.language.toLowerCase() === 'de-de') {
+    if (
+      i18n.language.toLowerCase() === 'de-de' ||
+      i18n.language.toLowerCase() === 'de'
+    ) {
       return 'de';
     }
     return 'en';
