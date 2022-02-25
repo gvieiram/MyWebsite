@@ -76,9 +76,8 @@ export const Container = styled.div`
 
 export const Card = styled.div`
   background-color: ${props => props.theme.colors.background_card};
-  height: 2000px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 30px 100px 30px;
   z-index: 9;
   border-radius: 5px;
   box-shadow: 0px 4px 15px ${props => props.theme.colors.shadow_light};
@@ -120,4 +119,51 @@ export const Text = styled.p`
   text-align: justify;
   white-space: pre-line;
   font-size: 1.15rem;
+`;
+
+export const RepoContent = styled.div`
+  margin-top: 30px;
+
+  a {
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 24px;
+    display: block;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+
+    & + a {
+      margin-top: 16px;
+    }
+
+    &:hover {
+      transform: translateX(10px);
+    }
+
+    div {
+      margin: 0 16px;
+      flex: 1;
+
+      strong {
+        font-size: 20px;
+        color: #3d3d4d;
+      }
+
+      p {
+        font-size: 18px;
+        color: #a8a8b3;
+        margin-top: 4px;
+      }
+    }
+
+    svg {
+      margin-left: auto;
+      color: #c9c9d4;
+    }
+  }
 `;
