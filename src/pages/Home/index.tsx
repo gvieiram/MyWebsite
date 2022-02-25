@@ -38,9 +38,11 @@ export function Home() {
           {/* Skills */}
           <Title>{t('titles.skills')}</Title>
           <Skills />
-
+          {/* Experience */}
           <Title>{t('titles.experience')}</Title>
           <TimeLine />
+          {/* Recent Repositories */}
+          <Title>{t('titles.github')}</Title>
         </Card>
       </Container>
     </>

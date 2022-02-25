@@ -27,7 +27,8 @@
     "titles": {
       "about": "About",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "github": "Recent Repositories on Github"
     },
     "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nI currently work as a software developer and mainly work with React JS, NodeJS, Express JS, Cypress and Jest.\nAlso a functional programming enthusiast and a dog father.",
     "skills": [

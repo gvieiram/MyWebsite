@@ -113,6 +113,7 @@ export const Title = styled.h2`
   color: ${props => props.theme.colors.title};
   font-size: 2rem;
   margin: 20px 0;
+  text-align: center;
 `;
 
 export const Text = styled.p`

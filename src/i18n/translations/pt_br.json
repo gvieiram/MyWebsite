@@ -27,7 +27,8 @@
       "titles": {
         "about": "Sobre Mim",
         "skills": "Habilidades",
-        "experience": "Experiência"
+        "experience": "Experiência",
+        "github": "Repositórios Recentes no Github"
       },
       "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como desenvolvedor de software e trabalho principalmente com React JS, NodeJS, Express JS, Cypress e Jest.\nTambém um entusiasta de programação funcional e um pai de cachorro.",
       "skills": [
