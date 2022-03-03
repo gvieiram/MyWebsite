@@ -13,7 +13,7 @@ const resources = {
   de,
 };
 
-export const availableLanguages = Object.keys(resources);
+// export const availableLanguages = Object.keys(resources);
 
 const lngFallback = navigator.language === 'pt-BR' ? 'pt_br' : 'en';
 

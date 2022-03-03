@@ -1,7 +1,35 @@
 {
   "navBar": {
-    "home": "Home",
-    "portfolio": "Portfolio"
+    "options": [
+      {
+        "path": "/",
+        "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
+      }
+    ],
+    "languages": [
+      {
+        "id": 1,
+        "name": "Portuguese 🇧🇷",
+        "value": "pt_br",
+        "disabled": false
+      },
+      {
+        "id": 2,
+        "name": "English 🇺🇸",
+        "value": "en",
+        "disabled": false
+      },
+      {
+        "id": 3,
+        "name": "German 🇩🇪",
+        "value": "de",
+        "disabled": true
+      }
+    ]
   },
   "home": {
     "header": {
@@ -10,7 +38,8 @@
     "titles": {
       "about": "About",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "github": "Recent Repositories on Github"
     },
     "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nI currently work as a software developer and mainly work with React JS, NodeJS, Express JS, Cypress and Jest.\nAlso a functional programming enthusiast and a dog father.",
     "skills": [

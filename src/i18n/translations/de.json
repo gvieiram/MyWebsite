@@ -1,8 +1,103 @@
 {
-  "translations": {
-    "learnReact": "Lerne React",
-    "title": {
-      "t1": "Es ist eine Prüfung"
-    }
+  "navBar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "languages": [
+      {
+        "id": 1,
+        "name": "Portugiesisch 🇧🇷",
+        "value": "pt_br",
+        "disabled": false
+      },
+      {
+        "id": 2,
+        "name": "Englisch 🇺🇸",
+        "value": "en",
+        "disabled": false
+      },
+      {
+        "id": 3,
+        "name": "Deutsch 🇩🇪",
+        "value": "de",
+        "disabled": true
+      }
+    ]
+  },
+  "home": {
+    "header": {
+      "profession": "Entwickler Front-End"
+    },
+    "titles": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience"
+    },
+    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nI currently work as a software developer and mainly work with React JS, NodeJS, Express JS, Cypress and Jest.\nAlso a functional programming enthusiast and a dog father.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "value": "80"
+      },
+      {
+        "id": 2,
+        "name": "ReactJS",
+        "value": "70"
+      },
+      {
+        "id": 3,
+        "name": "React Native",
+        "value": "75"
+      },
+      {
+        "id": 4,
+        "name": "Typescript",
+        "value": "55"
+      },
+      {
+        "id": 5,
+        "name": "Angular",
+        "value": "20"
+      },
+      {
+        "id": 6,
+        "name": "Automation Tests",
+        "value": "90"
+      }
+    ],
+    "experience": [
+      {
+        "id": 1,
+        "title": "Front-End Developer",
+        "location": "Florianópolis, SC, Brazil",
+        "description": "Very satisfactory work",
+        "date": "17/05/2015",
+        "icon": "work"
+      },
+      {
+        "id": 2,
+        "title": "QA",
+        "location": "Florianópolis, SC, Brazil",
+        "description": "Very unsatisfactory work",
+        "date": "17/05/2015",
+        "icon": "work"
+      },
+      {
+        "id": 3,
+        "title": "Analysis and Systems Development - SENAC",
+        "location": "Florianópolis, SC, Brazil",
+        "description": "College",
+        "date": "2018 - 2021",
+        "icon": "school"
+      },
+      {
+        "id": 4,
+        "title": "Ignite Rocketseat",
+        "location": "Florianópolis, SC, Brazil",
+        "description": "Curse",
+        "date": "March 2021",
+        "icon": "school"
+      }
+    ]
   }
 }
