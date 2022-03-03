@@ -4,10 +4,6 @@
       {
         "path": "/",
         "name": "Home"
-      },
-      {
-        "path": "/portfolio",
-        "name": "Portfolio"
       }
     ],
     "languages": [
@@ -39,9 +35,9 @@
       "about": "About",
       "skills": "Skills",
       "experience": "Experience",
-      "github": "Recent Repositories on Github"
+      "github": "Repositories on Github"
     },
-    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nI currently work as a software developer and mainly work with React JS, NodeJS, Express JS, Cypress and Jest.\nAlso a functional programming enthusiast and a dog father.",
+    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nCurrently I work as QA where I work developing test automation and performing functional tests in Front-End application.\nBecause I work as QA I have a different perspective on development, prioritizing deployments with minimal bugs.",
     "skills": [
       {
         "id": 1,
@@ -77,34 +73,34 @@
     "experience": [
       {
         "id": 1,
-        "title": "Front-End Developer",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Very satisfactory work",
-        "date": "17/05/2015",
-        "icon": "work"
-      },
-      {
-        "id": 2,
-        "title": "QA",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Very unsatisfactory work",
-        "date": "17/05/2015",
-        "icon": "work"
-      },
-      {
-        "id": 3,
-        "title": "Analysis and Systems Development - SENAC",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "College",
-        "date": "2018 - 2021",
+        "title": "Ignite, Rocketseat",
+        "location": "Florianópolis, SC",
+        "description": "Course covering the technologies Node JS, React, React Native",
+        "date": "June 2021 - Present",
         "icon": "school"
       },
       {
+        "id": 2,
+        "title": "Inglês, KNN Idiomas",
+        "location": "Florianópolis, SC",
+        "description": "",
+        "date": "March 2021 — Present",
+        "icon": "school"
+      },
+      {
+        "id": 3,
+        "title": "QA at NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Currently I work as QA, where I develop the automation of regressive tests of Itaú bank systems, using the Cypress framework",
+        "date": "November 2020 - Present",
+        "icon": "work"
+      },
+      {
         "id": 4,
-        "title": "Ignite Rocketseat",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Curse",
-        "date": "March 2021",
+        "title": "Analysis and Systems Development, SENAC",
+        "location": "Florianópolis, SC",
+        "description": "",
+        "date": "July 2018 — December 2021",
         "icon": "school"
       }
     ]

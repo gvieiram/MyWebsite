@@ -4,10 +4,6 @@
         {
           "path": "/",
           "name": "Home"
-        },
-        {
-          "path": "/portfolio",
-          "name": "Portfólio"
         }
       ],
       "languages": [
@@ -39,9 +35,9 @@
         "about": "Sobre Mim",
         "skills": "Habilidades",
         "experience": "Experiência",
-        "github": "Repositórios Recentes no Github"
+        "github": "Repositórios no Github"
       },
-      "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como desenvolvedor de software e trabalho principalmente com React JS, NodeJS, Express JS, Cypress e Jest.\nTambém um entusiasta de programação funcional e um pai de cachorro.",
+      "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como QA onde atuo desenvolvendo automações de testes e realizando testes funcionais na aplicação Front-End.\nPelo fato de trabalhar como QA tenho uma perspectiva diferente no desenvolvimento, priorizando implantações com o mínimo de bugs.",
       "skills": [
         {
           "id": 1,
@@ -77,34 +73,34 @@
       "experience": [
         {
           "id": 1,
-          "title": "Front-End Developer",
+          "title": "Ignite, Rocketseat",
           "location": "Florianópolis, SC",
-          "description": "Trabalho muito satisfatório",
-          "date": "17/05/2015",
-          "icon": "work"
-        },
-        {
-          "id": 2,
-          "title": "QA",
-          "location": "Florianópolis, SC",
-          "description": "Trabalho muito insatisfatório",
-          "date": "17/05/2015",
-          "icon": "work"
-        },
-        {
-          "id": 3,
-          "title": "Analise e Desenvolvimento de Sistemas - SENAC",
-          "location": "Florianópolis, SC",
-          "description": "Faculdade",
-          "date": "2018 - 2021",
+          "description": "Curso que engloba às tecnologias Node JS, React, React Native",
+          "date": "Julho 2021 - Presente",
           "icon": "school"
         },
         {
-          "id": 4,
-          "title": "Ignite Rocketseat",
+          "id": 2,
+          "title": "Inglês, KNN Idiomas",
           "location": "Florianópolis, SC",
-          "description": "Curso",
-          "date": "Março 2021",
+          "description": "Curso de Inglês",
+          "date": "Março 2021 — Presente",
+          "icon": "school"
+        },
+        {
+          "id": 3,
+          "title": "QA na NTT DATA",
+          "location": "Florianópolis, SC",
+          "description": "Atualmente eu atuo como QA, onde desenvolvo a automação dos testes regressivos dos sistemas do banco Itaú, utilizando o framework Cypress.",
+          "date": "Novembro 2020 - Presente",
+          "icon": "work"
+        },
+        {
+          "id": 4,
+          "title": "Análise e Desenvolvimento de Sistemas, SENAC",
+          "location": "Florianópolis, SC",
+          "description": "",
+          "date": "Julho 2018 — Dezembro 2021",
           "icon": "school"
         }
       ]

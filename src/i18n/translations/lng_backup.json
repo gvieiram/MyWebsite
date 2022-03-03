@@ -1,0 +1,112 @@
+{
+  "navBar": {
+    "options": [
+      {
+        "path": "/",
+        "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfólio"
+      }
+    ],
+    "languages": [
+      {
+        "id": 1,
+        "name": "Português 🇧🇷",
+        "value": "pt_br",
+        "disabled": false
+      },
+      {
+        "id": 2,
+        "name": "Inglês 🇺🇸",
+        "value": "en",
+        "disabled": false
+      },
+      {
+        "id": 3,
+        "name": "Alemão 🇩🇪",
+        "value": "de",
+        "disabled": true
+      }
+    ]
+  },
+  "home": {
+    "header": {
+      "profession": "Desenvolvedor Front-End"
+    },
+    "titles": {
+      "about": "Sobre Mim",
+      "skills": "Habilidades",
+      "experience": "Experiência",
+      "github": "Repositórios Recentes no Github"
+    },
+    "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como desenvolvedor de software e trabalho principalmente com React JS, NodeJS, Express JS, Cypress e Jest.\nTambém um entusiasta de programação funcional e um pai de cachorro.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "value": "80"
+      },
+      {
+        "id": 2,
+        "name": "ReactJS",
+        "value": "70"
+      },
+      {
+        "id": 3,
+        "name": "React Native",
+        "value": "75"
+      },
+      {
+        "id": 4,
+        "name": "Typescript",
+        "value": "55"
+      },
+      {
+        "id": 5,
+        "name": "Angular",
+        "value": "20"
+      },
+      {
+        "id": 6,
+        "name": "Automação de Testes",
+        "value": "90"
+      }
+    ],
+    "experience": [
+      {
+        "id": 1,
+        "title": "Front-End Developer",
+        "location": "Florianópolis, SC",
+        "description": "Trabalho muito satisfatório",
+        "date": "17/05/2015",
+        "icon": "work"
+      },
+      {
+        "id": 2,
+        "title": "QA",
+        "location": "Florianópolis, SC",
+        "description": "Trabalho muito insatisfatório",
+        "date": "17/05/2015",
+        "icon": "work"
+      },
+      {
+        "id": 3,
+        "title": "Analise e Desenvolvimento de Sistemas - SENAC",
+        "location": "Florianópolis, SC",
+        "description": "Faculdade",
+        "date": "2018 - 2021",
+        "icon": "school"
+      },
+      {
+        "id": 4,
+        "title": "Ignite Rocketseat",
+        "location": "Florianópolis, SC",
+        "description": "Curso",
+        "date": "Março 2021",
+        "icon": "school"
+      }
+    ]
+  }
+}
