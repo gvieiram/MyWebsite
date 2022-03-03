@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 
 import '../../i18n';
 import { SelectLanguage } from '../SelectLanguage';
-import { SelectMenu } from '../SelectMenu';
 import { Nav, NavLink, NavMenu } from './styles';
 
 export function Navbar() {
