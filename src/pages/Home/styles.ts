@@ -60,12 +60,16 @@ export const HeaderSubtitle = styled.h2`
 `;
 
 export const Container = styled.div`
-  padding: 0 100px;
+  width: 100%;
+  position: absolute;
+  padding: 0 100px 100px 100px;
+
+  @media (min-width: 721px) {
+    top: calc(50vh + 10%);
+  }
 
   @media (max-width: 720px) {
-    width: 100%;
     padding: 0 40px;
-    position: absolute;
     top: calc(50vh + 80px);
   }
 
@@ -90,9 +94,10 @@ export const Card = styled.div`
 export const Image = styled.img`
   width: 290px;
   height: 290px;
+  border-radius: 145px;
   background-color: gray;
-
   filter: drop-shadow(0px 4px 10px ${props => props.theme.colors.shadow_dark});
+  margin-top: 100px;
 
   @media (max-width: 720px) {
     width: 220px;
@@ -108,11 +113,35 @@ export const Image = styled.img`
   }
 `;
 
+export const SpecsContent = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+
+  & > div {
+    width: 48%;
+  }
+
+  @media (max-width: 880px) {
+    flex-direction: column;
+
+    & > div {
+      width: 100%;
+    }
+  }
+`;
+
 export const Title = styled.h2`
   color: ${props => props.theme.colors.title};
   font-size: 2rem;
-  margin: 20px 0;
+  margin: 80px 0 20px 0;
   text-align: center;
+
+  @media (max-width: 880px) {
+    margin: 50px 0 20px 0;
+  }
 `;
 
 export const Text = styled.p`

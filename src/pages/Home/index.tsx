@@ -18,6 +18,7 @@ import {
   Container,
   Card,
   Image,
+  SpecsContent,
   Title,
   Text,
   RepoContent,
@@ -71,13 +72,20 @@ export function Home() {
         <Card>
           <Image src={getImageProfile()} />
 
-          {/* About */}
-          <Title>{t('titles.about')}</Title>
-          <Text>{t('about')}</Text>
+          <SpecsContent>
+            <div>
+              {/* About */}
+              <Title>{t('titles.about')}</Title>
+              <Text>{t('about')}</Text>
+            </div>
 
-          {/* Skills */}
-          <Title>{t('titles.skills')}</Title>
-          <Skills />
+            <div>
+              {/* Skills */}
+              <Title>{t('titles.skills')}</Title>
+              <Skills />
+            </div>
+          </SpecsContent>
+
           {/* Experience */}
           <Title>{t('titles.experience')}</Title>
           <TimeLine />
