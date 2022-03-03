@@ -1,0 +1,28 @@
+/* #demo-simple-select {
+  background-color: rgba(44, 44, 44, 0.69);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  color: #fff;
+} */
+
+.MuiFormControl-root svg {
+  color: #d8d8d8;
+}
+
+div.MuiPaper-root {
+  background-color: rgba(44, 44, 44, 0.827);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  color: #fff;
+}
+
+div.MuiPaper-root li:hover {
+  background-color: rgba(163, 163, 163, 0.252);
+}
+
+div.MuiPaper-root li.Mui-selected {
+  background-color: rgba(37, 37, 37, 0.457);
+}
+
+div.MuiPaper-root li.Mui-selected:hover {
+  background-color: rgba(37, 37, 37, 0.457);
+}

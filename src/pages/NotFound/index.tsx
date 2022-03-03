@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NotFound() {
+import { Container } from './styles';
+
+export function NotFound() {
   return (
-    <div>
+    <Container>
       <h1>404 - Not Found!</h1>
       <Link to="/">Go Home</Link>
-    </div>
+    </Container>
   );
 }
-
-export default NotFound;

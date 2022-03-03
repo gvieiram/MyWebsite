@@ -25,12 +25,28 @@ export const NavLink = styled(Link)`
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   display: flex;
-  align-items: center;
   text-decoration: none;
+  flex-direction: column;
   height: 100%;
-  margin: 0 1rem;
+  margin: 0 1rem -3px 1rem;
 
   &.active {
     color: ${props => props.theme.colors.nav_active};
+    transition: 0.5s;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    border-radius: 1.5px;
+    margin-left: -3px;
+    background-color: ${props => props.theme.colors.timeline_school};
+  }
+
+  &.active::after {
+    width: calc(100% + 6px);
+    transition: all 0.4s ease-in-out;
   }
 `;

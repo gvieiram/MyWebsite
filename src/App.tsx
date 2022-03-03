@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import { ThemeProvider } from 'styled-components';
 
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
-import NotFound from './pages/NotFound';
+import { NotFound } from './pages/NotFound';
 import { Portfolio } from './pages/Portfolio';
 import { GlobalStyle } from './styles/global';
 import light from './styles/themes/light';
@@ -20,7 +20,8 @@ export function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
 
-          <Route path="*" element={<NotFound />} />
+          <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

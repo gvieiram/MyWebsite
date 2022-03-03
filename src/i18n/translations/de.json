@@ -6,17 +6,20 @@
       {
         "id": 1,
         "name": "Portugiesisch 🇧🇷",
-        "value": "pt_br"
+        "value": "pt_br",
+        "disabled": false
       },
       {
         "id": 2,
         "name": "Englisch 🇺🇸",
-        "value": "en"
+        "value": "en",
+        "disabled": false
       },
       {
         "id": 3,
         "name": "Deutsch 🇩🇪",
-        "value": "de"
+        "value": "de",
+        "disabled": true
       }
     ]
   },
