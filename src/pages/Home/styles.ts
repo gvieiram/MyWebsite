@@ -5,7 +5,7 @@ export const Header = styled.div`
   background-color: ${props => props.theme.colors.purple_primary};
   background-image: linear-gradient(
     0deg,
-    ${props => props.theme.colors.background} 0%,
+    ${props => props.theme.colors.white} 0%,
     ${props => props.theme.colors.purple_secondary} 51%,
     ${props => props.theme.colors.purple_primary} 80%
   );
