@@ -72,7 +72,15 @@
       ],
       "experience": [
         {
-          "id": 1,
+          "id": 5,
+          "title": "Desenvolvedor Front-End (React) na NTT DATA",
+          "location": "Florianópolis, SC",
+          "description": "Utilização dos fundamentos do React para promover as melhores práticas de ciclo de vida de componentes.\nAplicação de metodologias de desenvolvimento ágil, utilizando uma plataforma Jira.\nUtilização do Next e Redux para o desenvolvimento do e-commerce Bees.\nIntegração com Rest API.\nDesenvolvimento de testes unitários com Jest.",
+          "date": "Julho 2021 - Presente",
+          "icon": "work"
+        },
+        {
+          "id": 4,
           "title": "Ignite, Rocketseat",
           "location": "Florianópolis, SC",
           "description": "Curso que engloba às tecnologias Node JS, React, React Native",
@@ -80,15 +88,15 @@
           "icon": "school"
         },
         {
-          "id": 2,
+          "id": 3,
           "title": "Inglês, KNN Idiomas",
           "location": "Florianópolis, SC",
-          "description": "Curso de Inglês",
+          "description": "Curso de Inglês focado na conversação",
           "date": "Março 2021 — Presente",
           "icon": "school"
         },
         {
-          "id": 3,
+          "id": 2,
           "title": "QA na NTT DATA",
           "location": "Florianópolis, SC",
           "description": "Atualmente eu atuo como QA, onde desenvolvo a automação dos testes regressivos dos sistemas do banco Itaú, utilizando o framework Cypress.",
@@ -96,7 +104,7 @@
           "icon": "work"
         },
         {
-          "id": 4,
+          "id": 1,
           "title": "Análise e Desenvolvimento de Sistemas, SENAC",
           "location": "Florianópolis, SC",
           "description": "",
