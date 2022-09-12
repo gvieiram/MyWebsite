@@ -48,6 +48,6 @@ export const Subtitle = styled.h5`
 `;
 
 export const Text = styled.p`
-  font-size: 13px;
   font-weight: 400;
+  white-space: pre-line;
 `;
