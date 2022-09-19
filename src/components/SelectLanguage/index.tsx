@@ -11,20 +11,11 @@ import { useTheme } from 'styled-components';
 
 import './styles.css';
 
-// import { MenuItem } from './styles';
-
-type LanguageProps = {
-  id: number;
-  name: string;
-  value: string;
-  disabled: boolean;
-};
-
 export function SelectLanguage() {
   const [language, setLanguage] = useState('');
 
   const { t, i18n } = useTranslation('navBar', { useSuspense: false });
-  const languages: LanguageProps[] = t('languages');
+  const languages = t('languages');
 
   const { colors } = useTheme();
 
@@ -34,10 +25,6 @@ export function SelectLanguage() {
   };
 
   useEffect(() => {
-    const lngResult = (lng: string) => {
-      return languages.find(l => l.value === lng);
-    };
-
     function defaultLanguage() {
       if (
         i18n.language.toLowerCase() === 'pt_br' ||
@@ -49,17 +36,14 @@ export function SelectLanguage() {
         i18n.language.toLowerCase() === 'de-de' ||
         i18n.language.toLowerCase() === 'de'
       ) {
-        return 'de';
+        return 'en';
       }
       return 'en';
     }
 
-    if (lngResult(defaultLanguage())?.disabled === true) {
-      i18n.changeLanguage('en');
-    }
-
     setLanguage(defaultLanguage());
-  }, [i18n, i18n.language, languages]);
+    i18n.changeLanguage(defaultLanguage());
+  }, [i18n, i18n.language]);
 
   return (
     <FormControl
@@ -89,8 +73,8 @@ export function SelectLanguage() {
           return (
             <MenuItem
               value={lng.value}
-              key={lng.id}
-              disabled={lng.disabled}
+              key={Math.floor(Math.random() * 100)}
+              disabled={lng.value === 'de'}
               id="menu-item"
             >
               {lng.name}

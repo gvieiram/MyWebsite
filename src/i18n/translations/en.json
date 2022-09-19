@@ -8,22 +8,16 @@
     ],
     "languages": [
       {
-        "id": 1,
         "name": "Portuguese 🇧🇷",
-        "value": "pt_br",
-        "disabled": false
+        "value": "pt_br"
       },
       {
-        "id": 2,
         "name": "English 🇺🇸",
-        "value": "en",
-        "disabled": false
+        "value": "en"
       },
       {
-        "id": 3,
         "name": "German 🇩🇪",
-        "value": "de",
-        "disabled": true
+        "value": "de"
       }
     ]
   },
