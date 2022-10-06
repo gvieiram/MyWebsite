@@ -28,8 +28,4 @@ export const Specs = styled.div`
       }
     }
   }
-
-  & span {
-    margin-top: 5%;
-  }
 `;

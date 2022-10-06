@@ -27,13 +27,16 @@ export const Experience = styled.div`
 `;
 
 export const RepoContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0 150px;
   margin-top: 30px;
 
   a {
     background: ${props => props.theme.colors.white};
     border-radius: 5px;
-    width: 100%;
+    width: 60%;
     padding: 24px;
     display: block;
     text-decoration: none;

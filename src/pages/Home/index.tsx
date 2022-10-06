@@ -5,7 +5,7 @@ import FadeLoader from 'react-spinners/FadeLoader';
 
 import { useTheme } from 'styled-components';
 
-import specsImage from '../../assets/SpecsImage.png';
+import aboutImage from '../../assets/about_ilustra.svg';
 import { TimeLine } from '../../components/TimeLine';
 import api from '../../services/api';
 import { Title } from '../../styles/global';
@@ -43,7 +43,7 @@ export function Home() {
         <About
           about={{ title: t('titles.about'), text: t('about') }}
           skills={{ title: t('titles.skills') }}
-          image={specsImage}
+          image={aboutImage}
         />
 
         <Experience>
