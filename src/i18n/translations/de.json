@@ -1,25 +1,27 @@
 {
   "navBar": {
-    "home": "Home",
-    "portfolio": "Portfolio",
+    "options": [
+      {
+        "path": "/",
+        "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
+      }
+    ],
     "languages": [
       {
-        "id": 1,
         "name": "Portugiesisch 🇧🇷",
-        "value": "pt_br",
-        "disabled": false
+        "value": "pt_br"
       },
       {
-        "id": 2,
         "name": "Englisch 🇺🇸",
-        "value": "en",
-        "disabled": false
+        "value": "en"
       },
       {
-        "id": 3,
         "name": "Deutsch 🇩🇪",
-        "value": "de",
-        "disabled": true
+        "value": "de"
       }
     ]
   },

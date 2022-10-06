@@ -13,7 +13,7 @@ export function Navbar() {
       <NavMenu>
         {navLink.map(element => {
           return (
-            <NavLink to={element.path} key={element.path}>
+            <NavLink to={element.path} key={Math.floor(Math.random() * 100)}>
               {element.name}
             </NavLink>
           );

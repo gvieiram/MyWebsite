@@ -4,32 +4,32 @@
       {
         "path": "/",
         "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
       }
     ],
     "languages": [
       {
-        "id": 1,
         "name": "Portuguese 🇧🇷",
-        "value": "pt_br",
-        "disabled": false
+        "value": "pt_br"
       },
       {
-        "id": 2,
         "name": "English 🇺🇸",
-        "value": "en",
-        "disabled": false
+        "value": "en"
       },
       {
-        "id": 3,
         "name": "German 🇩🇪",
-        "value": "de",
-        "disabled": true
+        "value": "de"
       }
     ]
   },
   "home": {
     "header": {
-      "profession": "Front-End Developer"
+      "regards": "Hello, my name is",
+      "name": "Gustavo Vieira\nMartins",
+      "profession": "I'm Front-End Developer"
     },
     "titles": {
       "about": "About",
@@ -37,50 +37,63 @@
       "experience": "Experience",
       "github": "Repositories on Github"
     },
-    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nCurrently I work as QA where I work developing test automation and performing functional tests in Front-End application.\nBecause I work as QA I have a different perspective on development, prioritizing deployments with minimal bugs.",
+    "about": "I'm a Developer passionate about solve problems using code!\nI started 4 years ago studying frontend by myself.\nCurrently I'm working at NTT DATA, a multinational company of consulting services. So I'm working outsourced to the AB InBev (Anheuser-Busch Inbev). There I work with React Developer, using best pratices of development.\nBecause I worked as QA I have a different perspective on development, always bringing unit tests and automated tests to guarantee the delivery, like this always prioritizing deployments with minimal bugs.",
     "skills": [
       {
         "id": 1,
         "name": "JavaScript",
-        "value": "80"
+        "value": "85"
       },
       {
         "id": 2,
         "name": "ReactJS",
-        "value": "70"
-      },
-      {
-        "id": 3,
-        "name": "React Native",
         "value": "75"
       },
       {
-        "id": 4,
-        "name": "Typescript",
+        "id": 3,
+        "name": "NextJS",
         "value": "55"
       },
       {
+        "id": 4,
+        "name": "React Native",
+        "value": "60"
+      },
+      {
         "id": 5,
-        "name": "Angular",
-        "value": "20"
+        "name": "Typescript",
+        "value": "70"
       },
       {
         "id": 6,
         "name": "Automation Tests",
         "value": "90"
+      },
+      {
+        "id": 7,
+        "name": "Unit Tests",
+        "value": "85"
       }
     ],
     "experience": [
       {
-        "id": 1,
+        "id": 5,
+        "title": "Front-End Developer (React) at NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Utilization of React fundaments to promove best ways of life cycle.\nApplication of agile development methodologies, using Jira platform.\nUsing Next and Redux to development of Bees e-commerce.\nRest API integration.\nUnit tests using Jest.",
+        "date": "March 2022 - Presente",
+        "icon": "work"
+      },
+      {
+        "id": 4,
         "title": "Ignite, Rocketseat",
         "location": "Florianópolis, SC",
-        "description": "Course covering the technologies Node JS, React, React Native",
-        "date": "June 2021 - Present",
+        "description": "Course covering the technologies Node JS, Next, React, React Native",
+        "date": "June 2021 - May 2022",
         "icon": "school"
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "Inglês, KNN Idiomas",
         "location": "Florianópolis, SC",
         "description": "",
@@ -88,15 +101,15 @@
         "icon": "school"
       },
       {
-        "id": 3,
+        "id": 2,
         "title": "QA at NTT DATA",
         "location": "Florianópolis, SC",
-        "description": "Currently I work as QA, where I develop the automation of regressive tests of Itaú bank systems, using the Cypress framework",
-        "date": "November 2020 - Present",
+        "description": "I worked as QA, where I develop the automation of regressive tests of Itaú bank systems, using the Cypress framework",
+        "date": "November 2020 - March 2022",
         "icon": "work"
       },
       {
-        "id": 4,
+        "id": 1,
         "title": "Analysis and Systems Development, SENAC",
         "location": "Florianópolis, SC",
         "description": "",

@@ -1,116 +1,121 @@
 {
-    "navBar": {
-      "options": [
-        {
-          "path": "/",
-          "name": "Home"
-        }
-      ],
-      "languages": [
-        {
-          "id": 1,
-          "name": "Português 🇧🇷",
-          "value": "pt_br",
-          "disabled": false
-        },
-        {
-          "id": 2,
-          "name": "Inglês 🇺🇸",
-          "value": "en",
-          "disabled": false
-        },
-        {
-          "id": 3,
-          "name": "Alemão 🇩🇪",
-          "value": "de",
-          "disabled": true
-        }
-      ]
+  "navBar": {
+    "options": [
+      {
+        "path": "/",
+        "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Português 🇧🇷",
+        "value": "pt_br"
+      },
+      {
+        "name": "Inglês 🇺🇸",
+        "value": "en"
+      },
+      {
+        "name": "Alemão 🇩🇪",
+        "value": "de"
+      }
+    ]
+  },
+  "home": {
+    "header": {
+      "regards": "Olá, me chamo",
+      "name": "Gustavo Vieira\nMartins",
+      "profession": "Eu sou Desenvolvedor Front-End"
     },
-    "home": {
-      "header": {
-        "profession": "Desenvolvedor Front-End"
+    "titles": {
+      "about": "Sobre Mim",
+      "skills": "Habilidades",
+      "experience": "Experiência",
+      "github": "Repositórios no Github"
+    },
+    "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 4 anos estudando frontend sozinho.\nAtualmente trabalho na NTT DATA, empresa multinacional de serviços de consultoria onde presto serviço para a AB-InBev (Anheuser-Busch Inbev) como React Developer, utilizando as melhores práticas de desenvolvimento.\nPor já ter trabalhado como QA tenho uma perspectiva diferente de desenvolvimento, sempre fazendo testes unitários e testes automatizados para garantir a entrega, assim sempre priorizando implantações com o mínimo de bugs.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "value": "85"
       },
-      "titles": {
-        "about": "Sobre Mim",
-        "skills": "Habilidades",
-        "experience": "Experiência",
-        "github": "Repositórios no Github"
+      {
+        "id": 2,
+        "name": "ReactJS",
+        "value": "75"
       },
-      "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como QA onde atuo desenvolvendo automações de testes e realizando testes funcionais na aplicação Front-End.\nPelo fato de trabalhar como QA tenho uma perspectiva diferente no desenvolvimento, priorizando implantações com o mínimo de bugs.",
-      "skills": [
-        {
-          "id": 1,
-          "name": "JavaScript",
-          "value": "80"
-        },
-        {
-          "id": 2,
-          "name": "ReactJS",
-          "value": "70"
-        },
-        {
-          "id": 3,
-          "name": "React Native",
-          "value": "75"
-        },
-        {
-          "id": 4,
-          "name": "Typescript",
-          "value": "55"
-        },
-        {
-          "id": 5,
-          "name": "Angular",
-          "value": "20"
-        },
-        {
-          "id": 6,
-          "name": "Automação de Testes",
-          "value": "90"
-        }
-      ],
-      "experience": [
-        {
-          "id": 5,
-          "title": "Desenvolvedor Front-End (React) na NTT DATA",
-          "location": "Florianópolis, SC",
-          "description": "Utilização dos fundamentos do React para promover as melhores práticas de ciclo de vida de componentes.\nAplicação de metodologias de desenvolvimento ágil, utilizando uma plataforma Jira.\nUtilização do Next e Redux para o desenvolvimento do e-commerce Bees.\nIntegração com Rest API.\nDesenvolvimento de testes unitários com Jest.",
-          "date": "Julho 2021 - Presente",
-          "icon": "work"
-        },
-        {
-          "id": 4,
-          "title": "Ignite, Rocketseat",
-          "location": "Florianópolis, SC",
-          "description": "Curso que engloba às tecnologias Node JS, React, React Native",
-          "date": "Julho 2021 - Presente",
-          "icon": "school"
-        },
-        {
-          "id": 3,
-          "title": "Inglês, KNN Idiomas",
-          "location": "Florianópolis, SC",
-          "description": "Curso de Inglês focado na conversação",
-          "date": "Março 2021 — Presente",
-          "icon": "school"
-        },
-        {
-          "id": 2,
-          "title": "QA na NTT DATA",
-          "location": "Florianópolis, SC",
-          "description": "Atualmente eu atuo como QA, onde desenvolvo a automação dos testes regressivos dos sistemas do banco Itaú, utilizando o framework Cypress.",
-          "date": "Novembro 2020 - Presente",
-          "icon": "work"
-        },
-        {
-          "id": 1,
-          "title": "Análise e Desenvolvimento de Sistemas, SENAC",
-          "location": "Florianópolis, SC",
-          "description": "",
-          "date": "Julho 2018 — Dezembro 2021",
-          "icon": "school"
-        }
-      ]
-    }
+      {
+        "id": 3,
+        "name": "NextJS",
+        "value": "55"
+      },
+      {
+        "id": 4,
+        "name": "React Native",
+        "value": "60"
+      },
+      {
+        "id": 5,
+        "name": "Typescript",
+        "value": "70"
+      },
+      {
+        "id": 6,
+        "name": "Automation Tests",
+        "value": "90"
+      },
+      {
+        "id": 7,
+        "name": "Unit Tests",
+        "value": "85"
+      }
+    ],
+    "experience": [
+      {
+        "id": 5,
+        "title": "Desenvolvedor Front-End (React) na NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Utilização dos fundamentos do React para promover as melhores práticas de ciclo de vida de componentes.\nAplicação de metodologias de desenvolvimento ágil, utilizando uma plataforma Jira.\nUtilização do Next e Redux para o desenvolvimento do e-commerce Bees.\nIntegração com Rest API.\nDesenvolvimento de testes unitários com Jest.",
+        "date": "Março 2022 - Presente",
+        "icon": "work"
+      },
+      {
+        "id": 4,
+        "title": "Ignite, Rocketseat",
+        "location": "Florianópolis, SC",
+        "description": "Curso que engloba às tecnologias Node JS, React, React Native",
+        "date": "Julho 2021 - Maio 2022",
+        "icon": "school"
+      },
+      {
+        "id": 3,
+        "title": "Inglês, KNN Idiomas",
+        "location": "Florianópolis, SC",
+        "description": "Curso de Inglês focado na conversação",
+        "date": "Março 2021 — Presente",
+        "icon": "school"
+      },
+      {
+        "id": 2,
+        "title": "QA na NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Eu trabalhei como QA, onde desenvolvo a automação dos testes regressivos dos sistemas do banco Itaú, utilizando o framework Cypress.",
+        "date": "Novembro 2020 - Março 2022",
+        "icon": "work"
+      },
+      {
+        "id": 1,
+        "title": "Análise e Desenvolvimento de Sistemas, SENAC",
+        "location": "Florianópolis, SC",
+        "description": "",
+        "date": "Julho 2018 — Dezembro 2021",
+        "icon": "school"
+      }
+    ]
+  }
 }

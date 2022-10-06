@@ -3,8 +3,9 @@ import { HiOutlineAcademicCap, HiOutlineBriefcase } from 'react-icons/hi';
 import styled from 'styled-components';
 
 export const SchoolIcon = styled(HiOutlineAcademicCap)`
+  color: #fff;
+
   @media (min-width: 1170px) {
-    color: #fff;
     width: 32px;
     height: 32px;
     top: 43%;
@@ -12,7 +13,6 @@ export const SchoolIcon = styled(HiOutlineAcademicCap)`
   }
 
   @media (max-width: 1169px) {
-    color: #fff;
     width: 26px;
     height: 26px;
     top: 48%;
@@ -22,7 +22,6 @@ export const SchoolIcon = styled(HiOutlineAcademicCap)`
 
 export const WorkIcon = styled(HiOutlineBriefcase)`
   @media (min-width: 1170px) {
-    color: #fff;
     width: 32px;
     height: 32px;
     top: 43%;
@@ -30,7 +29,6 @@ export const WorkIcon = styled(HiOutlineBriefcase)`
   }
 
   @media (max-width: 1169px) {
-    color: #fff;
     width: 26px;
     height: 26px;
     top: 48%;
@@ -50,4 +48,5 @@ export const Subtitle = styled.h5`
 export const Text = styled.p`
   font-weight: 400;
   white-space: pre-line;
+  color: ${props => props.theme.colors.gray_03};
 `;
