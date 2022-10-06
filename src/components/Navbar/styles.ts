@@ -5,25 +5,24 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   height: 80px;
   width: 100%;
-  background-color: ${props => props.theme.colors.purple_primary};
+  background-color: ${props => props.theme.colors.dark_300};
+  background-image: ${props => props.theme.colors.dark_background};
   display: flex;
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 150px 0 150px;
   z-index: 10;
 `;
 
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-left: -1rem;
 `;
 
 export const NavLink = styled(Link)`
-  color: ${props => props.theme.colors.nav_inactive};
+  color: ${props => props.theme.colors.white};
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
   display: flex;
   text-decoration: none;
   flex-direction: column;
@@ -31,7 +30,8 @@ export const NavLink = styled(Link)`
   margin: 0 1rem -3px 1rem;
 
   &.active {
-    color: ${props => props.theme.colors.nav_active};
+    color: ${props => props.theme.colors.white};
+    font-weight: 500;
     transition: 0.5s;
   }
 
@@ -39,10 +39,10 @@ export const NavLink = styled(Link)`
     content: '';
     display: block;
     width: 0;
-    height: 4px;
+    height: 2px;
     border-radius: 1.5px;
     margin-left: -3px;
-    background-color: ${props => props.theme.colors.timeline_school};
+    background-color: ${props => props.theme.colors.purple_800};
   }
 
   &.active::after {

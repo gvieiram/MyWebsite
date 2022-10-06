@@ -1,68 +1,10 @@
 import styled from 'styled-components';
 
-export const Header = styled.div`
-  height: 100vh;
-  background-color: ${props => props.theme.colors.purple_primary};
-  background-image: linear-gradient(
-    0deg,
-    ${props => props.theme.colors.white} 0%,
-    ${props => props.theme.colors.purple_secondary} 51%,
-    ${props => props.theme.colors.purple_primary} 80%
-  );
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const Content = styled.div`
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 50%;
-
-  /* @media (max-width: 720px) {
-    margin-top: -270px;
-  } */
-`;
-
-export const HeaderTitle = styled.h1`
-  color: ${props => props.theme.colors.nav_active};
-  font-size: 4rem; // 64px
-  padding: 0 30px;
-  margin-bottom: 20px;
-
-  @media (max-width: 720px) {
-    font-size: 3rem; // 42px
-    padding: 0 20px;
-    margin-bottom: 30px;
-  }
-
-  @media (max-width: 339px) {
-    font-size: 2.5rem;
-  }
-`;
-
-export const HeaderSubtitle = styled.h2`
-  color: ${props => props.theme.colors.nav_active};
-  font-size: 2.25rem; // 36px
-  padding: 0 30px;
-
-  @media (max-width: 720px) {
-    font-size: 1.5rem; // 28px
-    padding: 0 20px;
-  }
-
-  @media (max-width: 339px) {
-    font-size: 1.2rem;
-  }
-`;
-
 export const Container = styled.div`
   width: 100%;
-  position: absolute;
-  padding: 0 100px 100px 100px;
+  padding-bottom: 150px;
+  background-image: ${props => props.theme.colors.dark_background_secondary};
+  color: ${props => props.theme.colors.white};
 
   @media (min-width: 721px) {
     top: calc(50vh + 10%);
@@ -78,83 +20,18 @@ export const Container = styled.div`
   }
 `;
 
-export const Card = styled.div`
-  background-color: ${props => props.theme.colors.background_card};
+export const Experience = styled.div`
   width: 100%;
-  padding: 0 30px 100px 30px;
-  z-index: 9;
-  border-radius: 5px;
-  box-shadow: 0px 4px 15px ${props => props.theme.colors.shadow_light};
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-export const Image = styled.img`
-  width: 290px;
-  height: 290px;
-  border-radius: 145px;
-  background-color: gray;
-  filter: drop-shadow(0px 4px 10px ${props => props.theme.colors.shadow_dark});
-  margin-top: 100px;
-
-  @media (max-width: 720px) {
-    width: 220px;
-    height: 220px;
-    border-radius: 110px;
-    margin-top: 50px;
-  }
-
-  @media (max-width: 339px) {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-  }
-`;
-
-export const SpecsContent = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 20px;
-
-  & > div {
-    width: 48%;
-  }
-
-  @media (max-width: 880px) {
-    flex-direction: column;
-
-    & > div {
-      width: 100%;
-    }
-  }
-`;
-
-export const Title = styled.h2`
-  color: ${props => props.theme.colors.title};
-  font-size: 2rem;
-  margin: 80px 0 20px 0;
-  text-align: center;
-
-  @media (max-width: 880px) {
-    margin: 50px 0 20px 0;
-  }
-`;
-
-export const Text = styled.p`
-  text-align: justify;
-  white-space: pre-line;
-  font-size: 1.15rem;
+  padding: 0 150px;
+  background-image: ${props => props.theme.colors.dark_background};
 `;
 
 export const RepoContent = styled.div`
+  padding: 0 150px;
   margin-top: 30px;
 
   a {
-    background: #fff;
+    background: ${props => props.theme.colors.white};
     border-radius: 5px;
     width: 100%;
     padding: 24px;

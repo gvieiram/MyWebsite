@@ -8,7 +8,7 @@ import { Home } from './pages/Home';
 import { NotFound } from './pages/NotFound';
 import { Portfolio } from './pages/Portfolio';
 import { GlobalStyle } from './styles/global';
-import light from './styles/themes/light';
+import light from './styles/themes';
 
 export function App() {
   return (

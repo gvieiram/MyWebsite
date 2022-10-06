@@ -4,6 +4,10 @@
       {
         "path": "/",
         "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
       }
     ],
     "languages": [
@@ -23,7 +27,9 @@
   },
   "home": {
     "header": {
-      "profession": "Front-End Developer"
+      "regards": "Hello, my name is",
+      "name": "Gustavo Vieira\nMartins",
+      "profession": "I'm Front-End Developer"
     },
     "titles": {
       "about": "About",
@@ -31,37 +37,37 @@
       "experience": "Experience",
       "github": "Repositories on Github"
     },
-    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nCurrently I work as QA where I work developing test automation and performing functional tests in Front-End application.\nBecause I work as QA I have a different perspective on development, prioritizing deployments with minimal bugs.",
+    "about": "I'm a Developer passionate about solve problems using code!\nI started 4 years ago studying frontend by myself.\nCurrently I'm working at NTT DATA, a multinational company of consulting services. So I'm working outsourced to the AB InBev (Anheuser-Busch Inbev). There I work with React Developer, using best pratices of development.\nBecause I worked as QA I have a different perspective on development, always bringing unit tests and automated tests to guarantee the delivery, like this always prioritizing deployments with minimal bugs.",
     "skills": [
       {
         "id": 1,
         "name": "JavaScript",
-        "value": "80"
+        "value": "85"
       },
       {
         "id": 2,
         "name": "ReactJS",
-        "value": "70"
+        "value": "75"
       },
       {
         "id": 3,
         "name": "React Native",
-        "value": "75"
+        "value": "60"
       },
       {
         "id": 4,
         "name": "Typescript",
-        "value": "55"
-      },
-      {
-        "id": 5,
-        "name": "Angular",
-        "value": "20"
+        "value": "70"
       },
       {
         "id": 6,
         "name": "Automation Tests",
         "value": "90"
+      },
+      {
+        "id": 7,
+        "name": "Unit Tests",
+        "value": "85"
       }
     ],
     "experience": [
@@ -69,7 +75,7 @@
         "id": 1,
         "title": "Ignite, Rocketseat",
         "location": "Florianópolis, SC",
-        "description": "Course covering the technologies Node JS, React, React Native",
+        "description": "Course covering the technologies Node JS, Next, React, React Native",
         "date": "June 2021 - Present",
         "icon": "school"
       },

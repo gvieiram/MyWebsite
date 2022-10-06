@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -42,5 +42,23 @@ export const GlobalStyle = createGlobalStyle`
   [disabled] {
     opacity: 0.6;
     cursor: not-allowed;
+  }
+`;
+
+// Global exported styles
+export const Text = styled.p`
+  text-align: justify;
+  white-space: pre-line;
+  font-size: 1.15rem;
+`;
+
+export const Title = styled.h2`
+  color: ${props => props.theme.colors.dark_title};
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+
+  @media (max-width: 880px) {
+    margin-bottom: 10px;
   }
 `;

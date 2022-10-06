@@ -26,9 +26,7 @@ export function TimeLine() {
             date={element.date}
             dateClassName="date"
             iconStyle={{
-              backgroundColor: isWorkIcon
-                ? colors.timeline_work
-                : colors.timeline_school,
+              backgroundColor: isWorkIcon ? colors.purple_800 : colors.pink,
               boxShadow: `0 0 0 4px ${colors.background_card}, 0px 4px 9px rgba(0, 0, 0, 0.25)`,
             }}
             icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
@@ -36,9 +34,7 @@ export function TimeLine() {
               backgroundColor: colors.background_card,
               borderTopWidth: 6,
               borderTopStyle: 'solid',
-              borderTopColor: isWorkIcon
-                ? colors.timeline_work
-                : colors.timeline_school,
+              borderTopColor: isWorkIcon ? colors.purple_800 : colors.pink,
             }}
             contentArrowStyle={{
               borderRightColor: colors.background_card,

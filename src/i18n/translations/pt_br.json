@@ -4,6 +4,10 @@
       {
         "path": "/",
         "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
       }
     ],
     "languages": [
@@ -23,7 +27,9 @@
   },
   "home": {
     "header": {
-      "profession": "Desenvolvedor Front-End"
+      "regards": "Olá, me chamo",
+      "name": "Gustavo Vieira\nMartins",
+      "profession": "Eu sou Desenvolvedor Front-End"
     },
     "titles": {
       "about": "Sobre Mim",
@@ -31,7 +37,7 @@
       "experience": "Experiência",
       "github": "Repositórios no Github"
     },
-    "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 3 anos estudando frontend sozinho.\nAtualmente trabalho como QA onde atuo desenvolvendo automações de testes e realizando testes funcionais na aplicação Front-End.\nPelo fato de trabalhar como QA tenho uma perspectiva diferente no desenvolvimento, priorizando implantações com o mínimo de bugs.",
+    "about": "Sou um desenvolvedor apaixonado por resolver problemas usando código!\nComecei há 4 anos estudando frontend sozinho.\nAtualmente trabalho na NTT DATA, empresa multinacional de serviços de consultoria onde presto serviço para a AB-InBev (Anheuser-Busch Inbev) como React Developer, utilizando as melhores práticas de desenvolvimento.\nPor já ter trabalhado como QA tenho uma perspectiva diferente de desenvolvimento, sempre fazendo testes unitários e testes automatizados para garantir a entrega, assim sempre priorizando implantações com o mínimo de bugs.",
     "skills": [
       {
         "id": 1,

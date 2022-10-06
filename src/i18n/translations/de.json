@@ -1,7 +1,15 @@
 {
   "navBar": {
-    "home": "Home",
-    "portfolio": "Portfolio",
+    "options": [
+      {
+        "path": "/",
+        "name": "Home"
+      },
+      {
+        "path": "/portfolio",
+        "name": "Portfolio"
+      }
+    ],
     "languages": [
       {
         "name": "Portugiesisch 🇧🇷",
