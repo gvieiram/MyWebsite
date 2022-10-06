@@ -51,11 +51,16 @@
       },
       {
         "id": 3,
+        "name": "NextJS",
+        "value": "55"
+      },
+      {
+        "id": 4,
         "name": "React Native",
         "value": "60"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Typescript",
         "value": "70"
       },
@@ -72,15 +77,23 @@
     ],
     "experience": [
       {
-        "id": 1,
+        "id": 5,
+        "title": "Front-End Developer (React) at NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Utilization of React fundaments to promove best ways of life cycle.\nApplication of agile development methodologies, using Jira platform.\nUsing Next and Redux to development of Bees e-commerce.\nRest API integration.\nUnit tests using Jest.",
+        "date": "March 2022 - Presente",
+        "icon": "work"
+      },
+      {
+        "id": 4,
         "title": "Ignite, Rocketseat",
         "location": "Florianópolis, SC",
         "description": "Course covering the technologies Node JS, Next, React, React Native",
-        "date": "June 2021 - Present",
+        "date": "June 2021 - May 2022",
         "icon": "school"
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "Inglês, KNN Idiomas",
         "location": "Florianópolis, SC",
         "description": "",
@@ -88,15 +101,15 @@
         "icon": "school"
       },
       {
-        "id": 3,
+        "id": 2,
         "title": "QA at NTT DATA",
         "location": "Florianópolis, SC",
         "description": "Currently I work as QA, where I develop the automation of regressive tests of Itaú bank systems, using the Cypress framework",
-        "date": "November 2020 - Present",
+        "date": "November 2020 - March 2022",
         "icon": "work"
       },
       {
-        "id": 4,
+        "id": 1,
         "title": "Analysis and Systems Development, SENAC",
         "location": "Florianópolis, SC",
         "description": "",

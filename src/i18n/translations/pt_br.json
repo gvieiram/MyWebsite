@@ -42,32 +42,37 @@
       {
         "id": 1,
         "name": "JavaScript",
-        "value": "80"
+        "value": "85"
       },
       {
         "id": 2,
         "name": "ReactJS",
-        "value": "70"
-      },
-      {
-        "id": 3,
-        "name": "React Native",
         "value": "75"
       },
       {
-        "id": 4,
-        "name": "Typescript",
+        "id": 3,
+        "name": "NextJS",
         "value": "55"
       },
       {
+        "id": 4,
+        "name": "React Native",
+        "value": "60"
+      },
+      {
         "id": 5,
-        "name": "Angular",
-        "value": "20"
+        "name": "Typescript",
+        "value": "70"
       },
       {
         "id": 6,
-        "name": "Automação de Testes",
+        "name": "Automation Tests",
         "value": "90"
+      },
+      {
+        "id": 7,
+        "name": "Unit Tests",
+        "value": "85"
       }
     ],
     "experience": [
@@ -76,7 +81,7 @@
         "title": "Desenvolvedor Front-End (React) na NTT DATA",
         "location": "Florianópolis, SC",
         "description": "Utilização dos fundamentos do React para promover as melhores práticas de ciclo de vida de componentes.\nAplicação de metodologias de desenvolvimento ágil, utilizando uma plataforma Jira.\nUtilização do Next e Redux para o desenvolvimento do e-commerce Bees.\nIntegração com Rest API.\nDesenvolvimento de testes unitários com Jest.",
-        "date": "Julho 2021 - Presente",
+        "date": "Março 2022 - Presente",
         "icon": "work"
       },
       {
@@ -84,7 +89,7 @@
         "title": "Ignite, Rocketseat",
         "location": "Florianópolis, SC",
         "description": "Curso que engloba às tecnologias Node JS, React, React Native",
-        "date": "Julho 2021 - Presente",
+        "date": "Julho 2021 - Maio 2022",
         "icon": "school"
       },
       {
@@ -100,7 +105,7 @@
         "title": "QA na NTT DATA",
         "location": "Florianópolis, SC",
         "description": "Atualmente eu atuo como QA, onde desenvolvo a automação dos testes regressivos dos sistemas do banco Itaú, utilizando o framework Cypress.",
-        "date": "Novembro 2020 - Presente",
+        "date": "Novembro 2020 - Março 2022",
         "icon": "work"
       },
       {
