@@ -22,7 +22,7 @@ export function Skills() {
   return (
     <>
       {skillsElements.map(skill => (
-        <Container key={Math.floor(Math.random() * 100)}>
+        <Container key={skill.id}>
           <Skill>{skill.name}</Skill>
 
           <SkillBar>

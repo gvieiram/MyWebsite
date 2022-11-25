@@ -29,7 +29,7 @@
     "header": {
       "regards": "Hello, my name is",
       "name": "Gustavo Vieira\nMartins",
-      "profession": "I'm Front-End Developer"
+      "profession": "I'm a Front-End Developer"
     },
     "titles": {
       "about": "About",
@@ -37,7 +37,7 @@
       "experience": "Experience",
       "github": "Repositories on Github"
     },
-    "about": "I'm a Developer passionate about solve problems using code!\nI started 4 years ago studying frontend by myself.\nCurrently I'm working at NTT DATA, a multinational company of consulting services. So I'm working outsourced to the AB InBev (Anheuser-Busch Inbev). There I work with React Developer, using best pratices of development.\nBecause I worked as QA I have a different perspective on development, always bringing unit tests and automated tests to guarantee the delivery, like this always prioritizing deployments with minimal bugs.",
+    "about": "I'm a Developer passionate about solving problems using code!\nI started 4 years ago studying Front-End by myself.\nI'm currently working at NTT DATA, a multinational consulting services company. Providing outsourced to the AB InBev (Anheuser-Busch Inbev). There I work with React Developer, using best pratices of development.\nI have a different perspective on development, Because I worked as QA, always bringing unit tests and automated tests to guarantee the delivery, like this always prioritizing deployments with minimal bugs.",
     "skills": [
       {
         "id": 1,
@@ -80,7 +80,7 @@
         "id": 5,
         "title": "Front-End Developer (React) at NTT DATA",
         "location": "Florianópolis, SC",
-        "description": "Utilization of React fundaments to promove best ways of life cycle.\nApplication of agile development methodologies, using Jira platform.\nUsing Next and Redux to development of Bees e-commerce.\nRest API integration.\nUnit tests using Jest.",
+        "description": "Use React fundaments, to promote better ways of life cycle.\nApplication of agile development methodologies, using Jira platform.\nUsing Next and Redux to development of Bees e-commerce.\nRest API integration.\nUnit testing using Jest.",
         "date": "March 2022 - Presente",
         "icon": "work"
       },
@@ -88,7 +88,7 @@
         "id": 4,
         "title": "Ignite, Rocketseat",
         "location": "Florianópolis, SC",
-        "description": "Course covering the technologies Node JS, Next, React, React Native",
+        "description": "Course covering Node JS, Next, React, React Native technologies",
         "date": "June 2021 - May 2022",
         "icon": "school"
       },
@@ -104,7 +104,7 @@
         "id": 2,
         "title": "QA at NTT DATA",
         "location": "Florianópolis, SC",
-        "description": "I worked as QA, where I develop the automation of regressive tests of Itaú bank systems, using the Cypress framework",
+        "description": "I worked as QA, where I develop the automation of regressive tests of Itaú bank systems, using Cypress framework",
         "date": "November 2020 - March 2022",
         "icon": "work"
       },

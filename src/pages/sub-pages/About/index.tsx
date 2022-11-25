@@ -30,7 +30,7 @@ export function About({ about, skills, image }: IAbout) {
         </div>
 
         <div className="content">
-          <Title>{skills.title}</Title>
+          <Title className="skills-title">{skills.title}</Title>
           <Skills />
         </div>
       </div>

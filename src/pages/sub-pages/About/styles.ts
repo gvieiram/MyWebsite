@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Specs = styled.div`
-  height: 100vh;
-  padding: 0 150px;
+  height: 100%;
+  padding: 50px 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,5 +27,9 @@ export const Specs = styled.div`
         width: 100%;
       }
     }
+  }
+
+  & .skills-title {
+    margin-top: 30px;
   }
 `;

@@ -11,7 +11,7 @@ import api from '../../services/api';
 import { Title } from '../../styles/global';
 import { About } from '../sub-pages/About';
 import { Header } from '../sub-pages/Header';
-import { Container, RepoContent, Experience } from './styles';
+import { HeaderContent, Container, RepoContent, Experience } from './styles';
 
 type Repository = {
   repo: string;
@@ -37,8 +37,9 @@ export function Home() {
 
   return (
     <>
-      <Header theme="dark" />
-
+      <HeaderContent>
+        <Header theme="dark" />
+      </HeaderContent>
       <Container>
         <About
           about={{ title: t('titles.about'), text: t('about') }}
