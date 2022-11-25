@@ -25,8 +25,8 @@ export const Container = styled.div`
 `;
 
 export const Experience = styled.div`
-  /* width: 100%; */
-  /* padding: 0 150px; */
+  width: 100%;
+  padding: 50px 150px;
   background-image: ${props => props.theme.colors.dark_background};
 `;
 
