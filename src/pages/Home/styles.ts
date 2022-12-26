@@ -34,7 +34,7 @@ export const RepoContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 150px;
+  padding: 50px 150px;
   margin-top: 30px;
 
   a {
