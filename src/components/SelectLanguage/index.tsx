@@ -69,11 +69,11 @@ export function SelectLanguage() {
           },
         }}
       >
-        {languages.map(lng => {
+        {languages.map((lng, index) => {
           return (
             <MenuItem
               value={lng.value}
-              key={Math.floor(Math.random() * 100)}
+              key={String(index)}
               disabled={lng.value === 'de'}
               id="menu-item"
             >

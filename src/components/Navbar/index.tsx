@@ -11,9 +11,9 @@ export function Navbar() {
   return (
     <Nav>
       <NavMenu>
-        {navLink.map(element => {
+        {navLink.map((element, index) => {
           return (
-            <NavLink to={element.path} key={Math.floor(Math.random() * 100)}>
+            <NavLink to={element.path} key={String(index)}>
               {element.name}
             </NavLink>
           );
