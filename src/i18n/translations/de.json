@@ -30,74 +30,88 @@
       "profession": "Entwickler Front-End"
     },
     "titles": {
-      "about": "About",
+      "about": "About me",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "github": "Repositories on Github"
     },
-    "about": "I'm a Developer passionate about solve problems using code!\nI started 3 years ago studying frontend by myself.\nI currently work as a software developer and mainly work with React JS, NodeJS, Express JS, Cypress and Jest.\nAlso a functional programming enthusiast and a dog father.",
+    "about": "I'm a developer passionate about with a passion for solving problems using code!\nI'm currently working at NTT DATA, a multinational consulting services company, providing outsourced services to AB-InBev (Anheuser-Busch Inbev) as a React Developer, using the best development practices.\nHaving worked as a QA, I got a different perspective on development, always bringing unit testing and test automation to guarantee the product's delivery, and thus always prioritizing deployments with the minimal amount of bugs",
     "skills": [
       {
         "id": 1,
         "name": "JavaScript",
-        "value": "80"
+        "value": "85"
       },
       {
         "id": 2,
         "name": "ReactJS",
-        "value": "70"
+        "value": "80"
       },
       {
         "id": 3,
-        "name": "React Native",
-        "value": "75"
+        "name": "NextJS",
+        "value": "65"
       },
       {
         "id": 4,
-        "name": "Typescript",
+        "name": "React Native",
         "value": "55"
       },
       {
         "id": 5,
-        "name": "Angular",
-        "value": "20"
+        "name": "Typescript",
+        "value": "80"
       },
       {
         "id": 6,
         "name": "Automation Tests",
         "value": "90"
+      },
+      {
+        "id": 7,
+        "name": "Unit Tests",
+        "value": "85"
       }
     ],
     "experience": [
       {
-        "id": 1,
-        "title": "Front-End Developer",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Very satisfactory work",
-        "date": "17/05/2015",
+        "id": 5,
+        "title": "Front-End Developer (React) at NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "Use of React fundaments, to promote better component life cycle practices.\nApplication of agile development methodologies, using Jira platform.\nDevelopment of Bees e-commerce, using Next and Redux.\nRest API integration.\nUnit testing using Jest.",
+        "date": "March 2022 - Presente",
         "icon": "work"
-      },
-      {
-        "id": 2,
-        "title": "QA",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Very unsatisfactory work",
-        "date": "17/05/2015",
-        "icon": "work"
-      },
-      {
-        "id": 3,
-        "title": "Analysis and Systems Development - SENAC",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "College",
-        "date": "2018 - 2021",
-        "icon": "school"
       },
       {
         "id": 4,
-        "title": "Ignite Rocketseat",
-        "location": "Florianópolis, SC, Brazil",
-        "description": "Curse",
-        "date": "March 2021",
+        "title": "Ignite, Rocketseat",
+        "location": "Florianópolis, SC",
+        "description": "Course covering Node JS, Next, React and React Native technologies.",
+        "date": "June 2021 - May 2022",
+        "icon": "school"
+      },
+      {
+        "id": 3,
+        "title": "Inglês, KNN Idiomas",
+        "location": "Florianópolis, SC",
+        "description": "English course focused on conversation",
+        "date": "March 2021 — Present",
+        "icon": "school"
+      },
+      {
+        "id": 2,
+        "title": "QA at NTT DATA",
+        "location": "Florianópolis, SC",
+        "description": "I worked as a QA, developing the automation of regressive tests of Itaú Unibanco's systems, using Cypress framework.",
+        "date": "November 2020 - March 2022",
+        "icon": "work"
+      },
+      {
+        "id": 1,
+        "title": "Systems Analysis and Development, SENAC",
+        "location": "Florianópolis, SC",
+        "description": "",
+        "date": "July 2018 — December 2021",
         "icon": "school"
       }
     ]
